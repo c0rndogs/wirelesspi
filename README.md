@@ -14,6 +14,9 @@ This will do the following things in a nutshell:
 
 I'm not good at this, so there are a number of things that I have not yet figured out how to script so I do them manually:
  - Install Oh-My-ZSH
+ ```
+   sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+ ```
  - Add my custom ZSH theme
  - Change the default password
  - Replace the SSH server config and add authorized keys file for my team
